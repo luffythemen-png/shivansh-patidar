@@ -1,0 +1,6 @@
+{
+  "name": "Infinity Solar Power System",
+  "description": "Indore's trusted solar experts specializing in high-performance solar panel installations, solar system dealership, and sustainable energy solutions with 24/7 service.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

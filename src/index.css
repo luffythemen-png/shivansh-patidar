@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 16s linear infinite;
+  }
+  .animate-fade-in-slide {
+    animation: fadeIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.8;
+    transform: scale(1.02);
+    filter: brightness(0.95) blur(1px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: brightness(1.05) blur(0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
